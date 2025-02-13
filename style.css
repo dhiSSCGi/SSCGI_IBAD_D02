@@ -1,0 +1,52 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GOOGLE FONTS */
+body {
+    font-family: "ROBOTO", serif;
+}
+
+.navbar {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.nav-logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* nav {
+    margin: 0 200px;
+} */
+ /* ul {
+    list-style: none;
+padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ } */
+  .nav {
+    margin: 0 15px;
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+
+  .nav a:hover{
+    background-color: red;
+  }
+
